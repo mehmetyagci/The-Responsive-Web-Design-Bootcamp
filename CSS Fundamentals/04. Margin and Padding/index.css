@@ -35,19 +35,52 @@ p {
 /* padding-top: 10spx; working */
 /* } */
 
-.links {
-  margin-top: 40px;
-  margin-bottom: 0px;
-}
-
-.accent-color {
-  color: yellow;
-}
-
-a {
+/* a {
   color: #e4e4e4;
 }
 
 a:hover {
   color: gray;
+} */
+
+a {
+  color: black;
+}
+
+.button {
+  /* background: #ffe600;
+  color: black;
+  padding: 60px;
+  display: inline-block;
+  margin-right: 25px; */
+  display: inline-block;
+  background: #ffe600;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  /* width: 105px;
+  height: 50px; */
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+.button:hover {
+  background: orange;
+}
+
+.accent-color {
+  color: #ffe600;
+}
+
+.links {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+  color: pink;
+}
+
+.test {
+  color: lightblue;
 }
