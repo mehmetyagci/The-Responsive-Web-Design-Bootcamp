@@ -35,7 +35,14 @@ header {
   color: white;
 }
 
-.section-one .btn {
+/* .section-two a { 11 points */
+.section-two-link {
+  color: black;
+}
+
+/* button styles starting */
+/* .section-one .btn { */
+.btn-yellow {
   display: inline-block;
   padding: 12px 25px;
   background: #ffe600;
@@ -44,15 +51,13 @@ header {
   text-decoration: none;
 }
 
-.section-one .btn:hover {
+/* .section-one .btn:hover { */
+.btn-yellow:hover {
   background: white;
 }
 
-.section-two a {
-  color: black;
-}
-
-.section-two .btn {
+/* .section-two .btn { */
+.btn-black {
   display: inline-block;
   padding: 12px 25px;
   background: #000;
@@ -61,7 +66,9 @@ header {
   text-decoration: none;
 }
 
-.section-two .btn:hover {
+/* .section-two .btn:hover { */
+.btn-black:hover {
   background: #ffe600;
   color: black;
 }
+/* button styles ended */
