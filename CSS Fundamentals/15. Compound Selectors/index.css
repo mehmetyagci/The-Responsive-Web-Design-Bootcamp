@@ -1,5 +1,9 @@
 body {
   margin: 0;
+  /* font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text,
+    Times New Roman, serif; */
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Lacquer', 'Montserrat', 'Open Sans', 'Tangerine', sans-serif;
 }
 
 h1,
@@ -18,6 +22,7 @@ p {
 
 a {
   color: #ffe600;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header,
@@ -33,6 +38,7 @@ header {
 .section-one {
   background: black;
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* .section-two a { 11 points */
@@ -41,34 +47,64 @@ header {
 }
 
 /* button styles starting */
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-accent {
+  background-color: #ffe600;
+  color: #000;
+  font-family: 'Montserrat';
+}
+
+.btn-accent:hover {
+  background: white;
+}
+
+.btn-dark {
+  background: black;
+  color: #fff;
+  font-family: 'Open Sans';
+}
+
+.btn-dark:hover {
+  background: #ffe600;
+  color: black;
+}
+
 /* .section-one .btn { */
-.btn-yellow {
+/* .btn-yellow {
   display: inline-block;
   padding: 12px 25px;
   background: #ffe600;
   color: #000;
   font-weight: bold;
   text-decoration: none;
-}
+} */
 
 /* .section-one .btn:hover { */
-.btn-yellow:hover {
+/* .btn-yellow:hover {
   background: white;
-}
+} */
 
 /* .section-two .btn { */
-.btn-black {
+/* .btn-black {
   display: inline-block;
   padding: 12px 25px;
   background: #000;
   color: #fff;
   font-weight: bold;
   text-decoration: none;
-}
+} */
 
 /* .section-two .btn:hover { */
-.btn-black:hover {
+/* .btn-black:hover {
   background: #ffe600;
   color: black;
-}
+} */
+
 /* button styles ended */
